@@ -1,5 +1,5 @@
 {
-  "name": "express-cache",
+  "name": "express-cacher",
   "version": "1.0.0",
   "description": "Basic HTTP cache middleware for Express.js",
   "main": "index.js",
