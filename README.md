@@ -2,7 +2,7 @@
 
 ## Install
 
-`yarn install express-cacher`
+`yarn install express-rc`
 
 ## Usage
 
