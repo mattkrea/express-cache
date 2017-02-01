@@ -1,4 +1,4 @@
-# Express.js caching middleware
+# Express **R**edis **C**ache
 
 ## Install
 
