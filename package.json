@@ -4,7 +4,7 @@
   "description": "Basic HTTP cache middleware for Express.js",
   "main": "index.js",
   "scripts": {
-    "test": "istanbul cover _mocha tests"
+    "test": "nyc --reporter=lcov --reporter=text-summary mocha --exit tests"
   },
   "repository": {
     "type": "git",
@@ -25,11 +25,12 @@
   },
   "homepage": "https://github.com/mattkrea/express-cache#readme",
   "devDependencies": {
-    "eslint": "^3.14.1",
-    "express": "^4.14.1",
-    "istanbul": "^0.4.5",
-    "mocha": "^3.2.0",
-    "supertest": "^3.0.0"
+    "babel-eslint": "^8.2.3",
+    "eslint": "^4.19.1",
+    "express": "^4.16.3",
+    "mocha": "^5.2.0",
+    "nyc": "^11.8.0",
+    "supertest": "^3.1.0"
   },
   "dependencies": {
     "redis": "^2.6.5"

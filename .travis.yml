@@ -1,0 +1,12 @@
+language: node_js
+services:
+  - redis-server
+env:
+  - CODECLIMATE_REPO_TOKEN=de60c269fd618309c7fcd00799ae11f7f9345a25fefe003b3e168901f7d7f1d7
+node_js:
+  - "7"
+  - "8"
+  - "9"
+after_success:
+  - npm install -g codeclimate-test-reporter
+  - codeclimate-test-reporter < coverage/lcov.info

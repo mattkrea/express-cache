@@ -1,5 +1,8 @@
 # Express **R**edis **C**ache
 
+[![Maintainability](https://api.codeclimate.com/v1/badges/ba04e222d441b5207c2b/maintainability)](https://codeclimate.com/github/mattkrea/express-cache/maintainability)
+[![Test Coverage](https://api.codeclimate.com/v1/badges/ba04e222d441b5207c2b/test_coverage)](https://codeclimate.com/github/mattkrea/express-cache/test_coverage)
+
 ## Install
 
 `yarn install express-rc`
